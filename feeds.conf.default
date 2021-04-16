@@ -7,4 +7,12 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 #src-git management https://github.com/openwrt-management/packages.git
 #src-git oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
-#src-git helloworld https://github.com/fw876/helloworld
+src-git helloworld https://github.com/fw876/helloworld
+src-git clash https://github.com/frainzy1477/luci-app-clash.git
+src-git openclash https://github.com/vernesong/OpenClash.git
+#src-git passwall https://github.com/xiaorouji/openwrt-passwall.git
+src-git vssr https://github.com/jerrykuku/luci-app-vssr.git
+src-git owpk https://github.com/kenzok8/openwrt-packages.git
+src-git oaf https://github.com/destan19/OpenAppFilter.git
+src-git rosy https://github.com/rosywrt/luci-theme-rosy.git
+src-git argon https://github.com/jerrykuku/luci-theme-argon.git
