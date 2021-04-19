@@ -17,4 +17,3 @@ src-git oaf https://github.com/destan19/OpenAppFilter.git
 src-git rosy https://github.com/rosywrt/luci-theme-rosy.git
 src-git argon https://github.com/jerrykuku/luci-theme-argon.git
 #src-git owpk https://github.com/kenzok8/openwrt-packages.git
-src-git transmission https://github.com/ronggang/transmission-web-control.git
