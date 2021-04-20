@@ -97,6 +97,7 @@ jobs:
           CONFIG_PACKAGE_kmod-fs-ext4=y
           # SquashFS 压缩只读文件系统
           CONFIG_PACKAGE_kmod-fs-squashfs=y
+          CONFIG_PACKAGE_kmod-fs-btrfs=y
           # NTFS 只读
           # CONFIG_PACKAGE_kmod-fs-ntfs=y
           # NTFS-3G 用户层(fuseblk)读写
@@ -131,7 +132,6 @@ jobs:
           # DiskMan磁盘管理
           CONFIG_PACKAGE_luci-app-diskman=y
           CONFIG_PACKAGE_kmod-dm-raid=y
-
           # TTYD终端
           CONFIG_PACKAGE_luci-app-ttyd=y
           # 挂载SMB/CIFS网络共享文件夹
@@ -145,6 +145,8 @@ jobs:
           CONFIG_PACKAGE_luci-app-openvpn-server=y
           # Transmission
           CONFIG_PACKAGE_luci-app-transmission=y
+          CONFIG_PACKAGE_transmission-cli-openssl=y
+          CONFIG_PACKAGE_transmission-remote-openssl=y
           # qBittorrent
           # CONFIG_PACKAGE_luci-app-qbittorrent=y
           # Aria2
