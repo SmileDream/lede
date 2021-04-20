@@ -72,6 +72,7 @@ jobs:
           CONFIG_TARGET_x86_64_Generic=y
           # Root filesystem partition size (in MB)
           CONFIG_TARGET_ROOTFS_PARTSIZE=300
+          CONFIG_TARGET_ROOTFS_EXT4FS=y
           # UEFI固件
           # CONFIG_EFI_IMAGES=y
           # 固件压缩
@@ -79,9 +80,9 @@ jobs:
           EOF
 
           # Hardening build options
-          # cat >> .config <<EOF
-          # CONFIG_TARGET_PREINIT_IP="10.10.10.10"
-          # EOF
+          cat >> .config <<EOF
+          CONFIG_TARGET_PREINIT_IP="10.10.10.10"
+          EOF
 
           # ------------------------------------《IPv6支持》
           cat >> .config <<EOF
